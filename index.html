@@ -81,6 +81,28 @@
       #gallery { display: none; }
     }
   </style>
+<style id="research-impact-styles">
+/* Research impact and media coverage */
+.impact-section{border-top:4px solid #168b95;margin-top:30px}
+.impact-intro{padding:28px;background:#f3f7fa;border-radius:8px;border-left:4px solid #168b95;margin-bottom:24px}
+.impact-year{color:#006b76;font-size:12px;font-weight:700;letter-spacing:.12em;margin-bottom:12px}
+.impact-intro h2{font-size:clamp(26px,3vw,36px)}
+.impact-recognition{font-size:15px;color:#405b70;margin-bottom:0}
+.impact-images{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-bottom:28px}
+.impact-images figure{margin:0;min-width:0}
+.impact-images img{display:block;width:100%;height:240px;object-fit:contain;background:#edf2f5;border:1px solid #dce4eb;border-radius:6px}
+.impact-images figcaption{font-size:12px;color:#53697c;margin-top:8px;line-height:1.5}
+.impact-media{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:16px 0 28px}
+.impact-media li{padding:20px;border:1px solid #dce4eb;border-radius:6px;margin:0;min-width:0}
+.impact-media li>a{font-weight:700}
+.impact-media p{font-size:15px;line-height:1.55;margin:8px 0}
+.impact-publication{padding:22px 24px;border-left:3px solid #168b95;background:#f3f7fa}
+.impact-publication h3{margin-top:0}
+.impact-publication p{font-size:15px}
+.impact-publication>a{font-size:14px;font-weight:600}
+@media(max-width:700px){.impact-images,.impact-media{grid-template-columns:1fr}.impact-intro{padding:20px}.impact-images img{height:auto;max-height:340px}}
+
+</style>
 </head>
 
 <body>
@@ -90,6 +112,7 @@
   <a class="brand" href="#top">SKM<span> / Research</span></a>
 
   <nav aria-label="Main navigation">
+    <a href="#impact">Impact &amp; media</a>
     <a href="#about">About</a>
     <a href="#positions">Positions</a>
     <a href="#research">Research</a>
@@ -159,6 +182,43 @@
   </div>
 
   <!-- ABOUT -->
+  <section id="impact" class="section impact-section" aria-labelledby="impact-title">
+    <div class="section-label">RESEARCH IMPACT<br>&amp; MEDIA COVERAGE</div>
+    <div class="section-content">
+      <div class="impact-intro">
+        <p class="impact-year">CLINICAL TRANSLATION · 2020</p>
+        <h2 id="impact-title">Virtual reality-assisted surgical planning</h2>
+        <p>Developed a patient-specific virtual reality (VR) model at IIT Madras, in collaboration with Prof R. Krishna Kumar and Dr K. R. Balakrishnan, to support preoperative planning for paediatric left ventricular assist device (LVAD) implantation at MGM Healthcare, Chennai.</p>
+        <p class="impact-recognition">The New Indian Express and The News Minute explicitly recognise my contribution to developing the VR model.</p>
+      </div>
+      <div class="impact-images">
+        <figure>
+          <a href="https://www.newindianexpress.com/cities/chennai/2020/May/30/iit-m-mgm-hospital-join-hands-for-unique-surgery-2149762.html">
+            <img src="assets/gallery/TNIE_import_2020_5_29_original_IIT-M_MGM_hospital_joi.avif" alt="Photograph accompanying The New Indian Express report on VR-assisted LVAD surgical planning" loading="lazy" decoding="async">
+          </a>
+          <figcaption>Image from <a href="https://www.newindianexpress.com/cities/chennai/2020/May/30/iit-m-mgm-hospital-join-hands-for-unique-surgery-2149762.html">The New Indian Express</a> · 30 May 2020</figcaption>
+        </figure>
+        <figure>
+          <a href="https://www.thenewsminute.com/health/how-virtual-reality-helped-complex-heart-procedure-child-125476">
+            <img src="assets/gallery/thenewsminute_import_sites_default_files_Egypt_2.avif" alt="Photograph accompanying The News Minute report on virtual reality in a paediatric heart procedure" loading="lazy" decoding="async">
+          </a>
+          <figcaption>Image from <a href="https://www.thenewsminute.com/health/how-virtual-reality-helped-complex-heart-procedure-child-125476">The News Minute</a> · 28 May 2020</figcaption>
+        </figure>
+      </div>
+      <h3>Selected media coverage</h3>
+      <ul class="impact-media">
+        <li><a href="https://www.newindianexpress.com/cities/chennai/2020/May/30/iit-m-mgm-hospital-join-hands-for-unique-surgery-2149762.html">The New Indian Express</a><p>IIT-M, MGM hospital join hands for unique surgery</p><span class="meta">30 May 2020 · Explicit recognition of my contribution</span></li>
+        <li><a href="https://www.ndtv.com/india-news/egyptian-boy-undergoes-surgery-using-iit-madras-virtual-reality-model-2238301">NDTV</a><p>Egyptian boy undergoes surgery using IIT-Madras’ virtual reality model</p><span class="meta">31 May 2020</span></li>
+        <li><a href="https://timesofindia.indiatimes.com/city/chennai/chennai-doctors-implant-heart-pump-in-egyptian-boy-with-help-of-iit-madras-teams-virtual-reality-model/articleshow/76108697.cms">The Times of India</a><p>Chennai doctors implant heart pump in Egyptian boy with help of IIT-Madras team’s virtual reality model</p><span class="meta">30 May 2020</span></li>
+        <li><a href="https://www.thenewsminute.com/health/how-virtual-reality-helped-complex-heart-procedure-child-125476">The News Minute</a><p>How virtual reality helped in a complex heart procedure in a child</p><span class="meta">28 May 2020 · Explicit recognition of my contribution</span></li>
+      </ul>
+      <div class="impact-publication">
+        <h3>Associated publication</h3>
+        <p>Ramaswamy RK, Marimuthu SK, et al. <em>Virtual reality-guided left ventricular assist device implantation in pediatric patient: Valuable presurgical tool.</em> Annals of Pediatric Cardiology (2021).</p>
+        <a href="https://doi.org/10.4103/apc.apc_81_21">Read the publication →</a>
+      </div>
+    </div>
+  </section>
   <section id="about" class="section">
     <div class="section-label">About</div>
     <div class="section-content">
